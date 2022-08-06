@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+ background: #fff;
+}
+
+.corpo {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: column;
+  position: absolute;
+}
+
+.logo {
+  display: box;
+  height: 60px;
+  max-height: 100px;
+  width: auto;
+  background: #000;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.info {
+  margin-top: 10px;
+  color: #242424;
+  display: block;
+}
+
+.btn {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.btn_d {
+  padding: 10px 20px;
+  color: #fff;
+  background: #ff0000;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all, 400ms ease;
+ 
+}
+
+.btn_d:hover {
+  border: solid 2px #000;
+  transition: 400ms ease;
+}
+
+/*Não serve eu acho.*/ 
+.slide_div {
+ text-align: center;
+ padding: 0;
+ margin-bottom: 0;
+ height: 100%;
+ color: #ff0000;
+}
+
+
+.slides-list {
+  height: 100%;
+  /*remove os estilos da lista*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ 
+  /* 
+	deixa todos os itens da lista
+	na horizontal e todos com a
+	mesma largura
+  */
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  transition: 400ms ease;
+  
+}
+
+.slide img {
+  height: 400px;
+  width: auto;
+  margin-right: 5px;
+  border-radius: 5px;
+  transition: 400ms ease;
+   }
+
+iframe {
+  display: box;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 410px;
+  width: 240px;
+  border-radius: 5px;
+}
+/*
+.footer {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  font-size: 10px;
+  background: #d3d3d3;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: block;
+  
+}
+
+
+.footer a {
+  text-decoration: none;
+}
+*/
